@@ -16,13 +16,27 @@
             <div class="flex justify-center pt-12 md:4">
                 <a href="#" class="bg-white " alt="Logo"><img src="../images/image.svg" /></a>
             </div>
+    
         
             <div class="flex flex-col justify-center md:justify-start my-auto pt-8 md:pt-0 px-8 md:px-24 lg:px-32">
                 <p class="text-center text-3xl">SignUp!</p>
+                <center><div class=" py-5 px-1">
+                    <button class="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-10 mx-1 border border-gray-500 hover:border-transparent rounded">
+                        ALUMNI
+                      </button>
+                      <button class="bg-transparent hover:bg-gray-500 text-gray-700 font-semibold hover:text-white py-2 px-10 border border-gray-500 hover:border-transparent rounded">
+                        STUDENT
+                      </button>
+                </div></center>
                 <form class="flex flex-col pt-3 md:pt-8" onsubmit="event.preventDefault();">
                     <div class="flex flex-col pt-4">
                         <label for="name" class="text-lg">Name</label>
                         <input type="text" id="name" placeholder="Enter your name"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline" />
+                    </div>
+                    <div class="flex flex-col pt-4">
+                        <label for="name" class="text-lg">USN</label>
+                        <input type="text" id="name" placeholder="Enter your usn"
                             class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline" />
                     </div>
         
@@ -55,7 +69,7 @@
         
         </div>
         <div class="w-1/2 shadow-2xl">
-            <img class="object-cover w-full h-screen hidden md:block"
+            <img class="object-cover w-screen h-full hidden md:block"
                 src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Background" />
         </div>
